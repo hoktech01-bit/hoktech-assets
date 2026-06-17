@@ -1,0 +1,295 @@
+<section class="hk-hero-overlap-section">
+  
+  <div class="hk-overlap-top-space">
+    <div class="hk-overlap-content-container">
+      <div class="hk-eyebrow-orange">COPILOT ROLES</div>
+      <p class="hk-overlap-main-text">
+        Bitrix24 AI Projects 把聊天、通話、任務、文件、行事曆整合在同一個空間，並加入 CoPilot AI——它讀懂整個專案的所有脈絡，隨時準備回答你的問題。
+      </p>
+    </div>
+  </div>
+
+  <div class="hk-overlap-bottom-stage">
+    
+    <div class="hk-stage-cards-container">
+      <div class="hk-glass-cards-flex">
+        
+        <div class="hk-glass-role-card">
+          <div class="hk-glass-card-num">01</div>
+          <h3 class="hk-glass-card-title">專案顧問</h3>
+          <p class="hk-glass-card-p">
+            掌握整個專案的任務狀態、截止時間、風險預警。任何時候問它「現在有什麼要注意的」，它都能立刻回答——不用等開會，不用靠 PM 整理報告。
+          </p>
+        </div>
+
+        <div class="hk-glass-role-card">
+          <div class="hk-glass-card-num">02</div>
+          <h3 class="hk-glass-card-title">個人助理</h3>
+          <p class="hk-glass-card-p">
+            不只是主管用，每個成員都可以問 AI：「我今天的優先任務是什麼？」「我能為這個專案多做什麼？」CoPilot 依照你的角色和任務，給你個人化的建議。
+          </p>
+        </div>
+
+        <div class="hk-glass-role-card">
+          <div class="hk-glass-card-num">03</div>
+          <h3 class="hk-glass-card-title">新人加速器</h3>
+          <p class="hk-glass-card-p">
+            新人加入專案不需要開一場說明會。CoPilot 已經讀懂所有歷史脈絡——過去的討論、決定、風險——新成員直接問，馬上進入狀況。
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="hk-stage-image-wrapper">
+      <img src="https://raw.githubusercontent.com/hoktech01-bit/hoktech-assets/main/TaskAI.webp" alt="Bitrix24 Task AI Showcase" class="hk-stage-full-img">
+      <div class="hk-stage-bottom-shadow"></div>
+    </div>
+
+  </div>
+</section>
+
+<section class="hk-clean-grid-section">
+  <div class="hk-grid-container">
+    
+    <div class="hk-four-column-grid">
+      
+      <div class="hk-grid-item-box">
+        <h4 class="hk-grid-en-title">AI Project Assistant</h4>
+        <p class="hk-grid-ch-desc">每個成員都有自己的 AI 工作助理</p>
+      </div>
+
+      <div class="hk-grid-item-box">
+        <h4 class="hk-grid-en-title">Project Context</h4>
+        <p class="hk-grid-ch-desc">CoPilot 讀懂整個專案的所有脈絡</p>
+      </div>
+
+      <div class="hk-grid-item-box">
+        <h4 class="hk-grid-en-title">AI 專案摘要</h4>
+        <p class="hk-grid-ch-desc">隨時掌握進度，不用等開會報告</p>
+      </div>
+
+      <div class="hk-grid-item-box">
+        <h4 class="hk-grid-en-title">專案風險提醒</h4>
+        <p class="hk-grid-ch-desc">截止日逼近、訊息未回覆，AI 主動通知</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<style>
+/* ================================================================= */
+/* --- Section 4: 上下結構半疊加視覺區專屬 CSS --- */
+/* ================================================================= */
+.hk-hero-overlap-section {
+  background-color: #0C1A24 !important; /* 與大圖完美融合的深海軍藍基本底色 */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* 上半部：寬敞的深色引言空間 */
+.hk-overlap-top-space {
+  width: 100%;
+  padding: 100px 0 80px 0 !important; /* 留出大氣的高階留白 */
+  display: flex;
+  justify-content: center;
+}
+
+.hk-overlap-content-container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 40px;
+  text-align: left; /* 保持精確的左對齊，符合 CIS 規範 */
+}
+
+.hk-eyebrow-orange {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 800 !important;
+  color: #F6921E !important; /* 品牌候客橘 */
+  letter-spacing: 0.1em;
+  margin-bottom: 24px !important;
+}
+
+.hk-overlap-main-text {
+  font-family: 'Noto Sans TC', sans-serif !important;
+  font-size: clamp(22px, 2.4vw, 28px) !important; /* 根據螢幕動態縮放的大氣字級 */
+  font-weight: 700 !important;
+  color: #FFFFFF !important;
+  line-height: 1.6 !important;
+  margin: 0 !important;
+  letter-spacing: -0.01em;
+  max-width: 1000px; /* 控制行寬，避免寬螢幕時單行過長難以閱讀 */
+}
+
+/* 下半部：舞台展示區（包含半疊加卡片與大圖） */
+.hk-overlap-bottom-stage {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 卡片容器：利用負邊距強制向上半疊加壓在交界處 */
+.hk-stage-cards-container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 40px;
+  position: relative;
+  z-index: 10 !important; /* 確保絕對飄浮在圖片上方 */
+  margin-bottom: -60px; /* 向上疊加的關鍵核心代碼 */
+}
+
+.hk-glass-cards-flex {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  gap: 24px !important;
+  width: 100%;
+}
+
+/* 頂級磨砂玻璃卡片設計 ─ 解決死黑黏稠感 */
+.hk-glass-role-card {
+  flex: 1 !important;
+  background: rgba(15, 32, 46, 0.8) !important; /* 具備透明度的深藍黑 */
+  backdrop-filter: blur(16px) !important; /* 磨砂玻璃濾鏡，能隱約透出下方的橘光細節 */
+  -webkit-backdrop-filter: blur(16px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important; /* 極細的邊框勾勒質感 */
+  border-radius: 16px !important; /* 標準 CIS 圓角 */
+  padding: 36px 30px !important;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3) !important;
+  transition: transform 0.3s ease, border-color 0.3s ease !important;
+}
+
+/* 懸停時的細微高級動態 */
+.hk-glass-role-card:hover {
+  transform: translateY(-4px) !important;
+  border-color: rgba(246, 146, 30, 0.4) !important; /* 邊框微發品牌橘光 */
+}
+
+.hk-glass-card-num {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  font-size: 28px !important;
+  font-weight: 800 !important;
+  color: #F6921E !important; /* 橘色數字 */
+  margin-bottom: 16px !important;
+  line-height: 1 !important;
+}
+
+.hk-glass-card-title {
+  font-family: 'Noto Sans TC', sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 900 !important;
+  color: #FFFFFF !important;
+  margin: 0 0 12px 0 !important;
+}
+
+.hk-glass-card-p {
+  font-family: 'Noto Sans TC', sans-serif !important;
+  font-size: 14.5px !important;
+  font-weight: 400 !important;
+  color: #94A3B8 !important; /* 精品冷灰，拉開文字層次 */
+  line-height: 1.75 !important;
+  margin: 0 !important;
+}
+
+/* 圖片展台：100% 拉滿，不給文字任何遮擋的空間 */
+.hk-stage-image-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1 !important;
+}
+
+.hk-stage-full-img {
+  width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  max-width: 1440px; /* 限制最大寬度，避免在超大螢幕上過度失真 */
+  margin: 0 auto !important;
+}
+
+/* 圖片下方的收尾遮罩，確保與區塊五過渡自然 */
+.hk-stage-bottom-shadow {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 100px;
+  background: linear-gradient(to top, #0C1A24 0%, transparent 100%);
+  pointer-events: none;
+}
+
+
+/* ================================================================= */
+/* --- Section 5: 四功能彙整區專屬 CSS --- */
+/* ================================================================= */
+.hk-clean-grid-section {
+  background-color: #F8FAFC !important; /* 乾淨淡灰底，視覺重新恢復極致透氣 */
+  padding: 100px 0 !important;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.hk-grid-container {
+  width: 100%;
+  max-width: 1200px !important;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.hk-four-column-grid {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 40px !important;
+}
+
+.hk-grid-item-box {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  border-left: 2px solid #E2E8F0 !important; /* 洗鍊對齊線，完美致敬國際大廠質感 */
+  padding-left: 24px !important;
+}
+
+.hk-grid-en-title {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 800 !important;
+  color: #0C1A24 !important;
+  margin: 0 0 10px 0 !important;
+}
+
+.hk-grid-ch-desc {
+  font-family: 'Noto Sans TC', sans-serif !important;
+  font-size: 13.5px !important;
+  font-weight: 500 !important;
+  color: #64748B !important;
+  line-height: 1.5 !important;
+  margin: 0 !important;
+}
+
+
+/* ================================================================= */
+/* --- 完美的 RWD 行動裝置平衡機制 --- */
+/* ================================================================= */
+@media (max-width: 991px) {
+  .hk-overlap-top-space { padding: 60px 0 40px 0 !important; }
+  .hk-stage-cards-container { margin-bottom: 0px !important; padding: 0 24px; } /* 手機版取消負邊距避免重疊擠壓 */
+  .hk-glass-cards-flex { flex-direction: column !important; gap: 16px !important; } /* 改為單欄舒適垂直排列 */
+  .hk-glass-role-card { padding: 28px 24px !important; }
+  .hk-four-column-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 32px !important; }
+  .hk-grid-container { padding: 0 24px; }
+}
+
+@media (max-width: 479px) {
+  .hk-four-column-grid { grid-template-columns: 1fr !important; }
+}
+</style>
