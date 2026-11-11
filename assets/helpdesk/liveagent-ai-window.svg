@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="Illustration: AI Answer Assistant reads the customer's message, the ticket's tags and a knowledge base article, and writes a draft reply that the agent sends">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F5F3FF"/>
+      <stop offset="1" stop-color="#EDE9FE"/>
+    </linearGradient>
+    <radialGradient id="glowV" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#A78BFA" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowO" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FDBA74" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#FDBA74" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ai" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#6D28D9"/>
+    </linearGradient>
+    <linearGradient id="draft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F5F3FF"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <filter id="sh" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#4C1D95" flood-opacity="0.16"/>
+    </filter>
+    <filter id="shs" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#4C1D95" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="760" rx="40" fill="url(#bg)"/>
+  <circle cx="930" cy="170" r="260" fill="url(#glowV)"/>
+  <circle cx="260" cy="640" r="240" fill="url(#glowO)"/>
+
+  <!-- app window -->
+  <g filter="url(#sh)">
+    <rect x="70" y="90" width="820" height="590" rx="28" fill="#FFFFFF"/>
+  </g>
+  <rect x="70" y="90" width="820" height="56" rx="28" fill="#FAFAFB"/>
+  <rect x="70" y="118" width="820" height="28" fill="#FAFAFB"/>
+  <line x1="70" y1="146" x2="890" y2="146" stroke="#EEF0F3" stroke-width="2"/>
+  <circle cx="108" cy="118" r="8" fill="#FCA5A5"/>
+  <circle cx="134" cy="118" r="8" fill="#FCD34D"/>
+  <circle cx="160" cy="118" r="8" fill="#86EFAC"/>
+
+  <!-- the customer's message -->
+  <circle cx="132" cy="214" r="26" fill="#E0E7FF"/>
+  <g transform="translate(116 198) scale(1.35)" fill="none" stroke="#6366F1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"/>
+  </g>
+  <rect x="176" y="188" width="430" height="104" rx="20" fill="#F3F4F6"/>
+  <rect x="204" y="214" width="330" height="13" rx="6.5" fill="#D1D5DB"/>
+  <rect x="204" y="240" width="370" height="13" rx="6.5" fill="#D1D5DB"/>
+  <rect x="204" y="266" width="210" height="13" rx="6.5" fill="#D1D5DB"/>
+
+  <!-- the ticket's tag -->
+  <rect x="640" y="198" width="140" height="40" rx="20" fill="#EDE9FE"/>
+  <g transform="translate(656 206) scale(1)" fill="none" stroke="#7C3AED" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M9.56802 3H5.25C4.00736 3 3 4.00736 3 5.25V9.56802C3 10.1648 3.23705 10.7371 3.65901 11.159L13.2401 20.7401C13.9388 21.4388 15.0199 21.6117 15.8465 21.0705C17.9271 19.7084 19.7084 17.9271 21.0705 15.8465C21.6117 15.0199 21.4388 13.9388 20.7401 13.2401L11.159 3.65901C10.7371 3.23705 10.1648 3 9.56802 3Z"/><path d="M6 6H6.0075V6.0075H6V6Z"/>
+  </g>
+  <rect x="690" y="212" width="70" height="12" rx="6" fill="#C4B5FD"/>
+
+  <!-- the AI draft in the reply editor -->
+  <rect x="118" y="340" width="724" height="300" rx="22" fill="url(#draft)" stroke="#DDD6FE" stroke-width="2"/>
+  <rect x="118" y="340" width="8" height="300" rx="4" fill="#8B5CF6"/>
+  <circle cx="174" cy="388" r="22" fill="url(#ai)"/>
+  <g transform="translate(159 373) scale(1.25)" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M9.8132 15.9038L9 18.75L8.1868 15.9038C7.75968 14.4089 6.59112 13.2403 5.09619 12.8132L2.25 12L5.09619 11.1868C6.59113 10.7597 7.75968 9.59112 8.1868 8.09619L9 5.25L9.8132 8.09619C10.2403 9.59113 11.4089 10.7597 12.9038 11.1868L15.75 12L12.9038 12.8132C11.4089 13.2403 10.2403 14.4089 9.8132 15.9038Z"/>
+    <path d="M18.2589 8.71454L18 9.75L17.7411 8.71454C17.4388 7.50533 16.4947 6.56117 15.2855 6.25887L14.25 6L15.2855 5.74113C16.4947 5.43883 17.4388 4.49467 17.7411 3.28546L18 2.25L18.2589 3.28546C18.5612 4.49467 19.5053 5.43883 20.7145 5.74113L21.75 6L20.7145 6.25887C19.5053 6.56117 18.5612 7.50533 18.2589 8.71454Z"/>
+  </g>
+  <rect x="214" y="378" width="150" height="14" rx="7" fill="#C4B5FD"/>
+  <g fill="#D1D5DB">
+    <rect x="166" y="436" width="620" height="14" rx="7"/>
+    <rect x="166" y="466" width="560" height="14" rx="7"/>
+    <rect x="166" y="496" width="600" height="14" rx="7"/>
+    <rect x="166" y="526" width="380" height="14" rx="7"/>
+  </g>
+  <rect x="166" y="574" width="96" height="34" rx="17" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="2"/>
+  <rect x="274" y="574" width="96" height="34" rx="17" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="2"/>
+  <rect x="382" y="574" width="96" height="34" rx="17" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="2"/>
+  <g fill="#C4B5FD"><rect x="190" y="586" width="48" height="10" rx="5"/><rect x="298" y="586" width="48" height="10" rx="5"/><rect x="406" y="586" width="48" height="10" rx="5"/></g>
+  <rect x="682" y="568" width="128" height="46" rx="14" fill="#FB923C"/>
+  <g transform="translate(728 572) scale(1.55)" fill="none" stroke="#FFFFFF" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M5.99972 12L3.2688 3.12451C9.88393 5.04617 16.0276 8.07601 21.4855 11.9997C16.0276 15.9235 9.884 18.9535 3.26889 20.8752L5.99972 12ZM5.99972 12L13.5 12"/>
+  </g>
+
+  <!-- the knowledge base article, read by the AI -->
+  <path d="M930 360 C930 400 880 420 812 412" fill="none" stroke="#A78BFA" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 12"/>
+  <g filter="url(#shs)">
+    <rect x="840" y="196" width="290" height="170" rx="22" fill="#FFFFFF"/>
+  </g>
+  <rect x="868" y="222" width="52" height="52" rx="14" fill="#EDE9FE"/>
+  <g transform="translate(878 232) scale(1.35)" fill="none" stroke="#7C3AED" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 6.04168C10.4077 4.61656 8.30506 3.75 6 3.75C4.94809 3.75 3.93834 3.93046 3 4.26212V18.5121C3.93834 18.1805 4.94809 18 6 18C8.30506 18 10.4077 18.8666 12 20.2917M12 6.04168C13.5923 4.61656 15.6949 3.75 18 3.75C19.0519 3.75 20.0617 3.93046 21 4.26212V18.5121C20.0617 18.1805 19.0519 18 18 18C15.6949 18 13.5923 18.8666 12 20.2917M12 6.04168V20.2917"/>
+  </g>
+  <rect x="936" y="230" width="150" height="14" rx="7" fill="#C4B5FD"/>
+  <rect x="936" y="254" width="110" height="12" rx="6" fill="#E5E7EB"/>
+  <g fill="#E5E7EB">
+    <rect x="868" y="296" width="234" height="12" rx="6"/>
+    <rect x="868" y="320" width="200" height="12" rx="6"/>
+  </g>
+
+  <!-- the AI badge -->
+  <circle cx="1040" cy="520" r="92" fill="url(#glowV)"/>
+  <g filter="url(#shs)"><circle cx="1040" cy="520" r="56" fill="url(#ai)"/></g>
+  <g transform="translate(1010 490) scale(2.5)" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M9.8132 15.9038L9 18.75L8.1868 15.9038C7.75968 14.4089 6.59112 13.2403 5.09619 12.8132L2.25 12L5.09619 11.1868C6.59113 10.7597 7.75968 9.59112 8.1868 8.09619L9 5.25L9.8132 8.09619C10.2403 9.59113 11.4089 10.7597 12.9038 11.1868L15.75 12L12.9038 12.8132C11.4089 13.2403 10.2403 14.4089 9.8132 15.9038Z"/>
+    <path d="M18.2589 8.71454L18 9.75L17.7411 8.71454C17.4388 7.50533 16.4947 6.56117 15.2855 6.25887L14.25 6L15.2855 5.74113C16.4947 5.43883 17.4388 4.49467 17.7411 3.28546L18 2.25L18.2589 3.28546C18.5612 4.49467 19.5053 5.43883 20.7145 5.74113L21.75 6L20.7145 6.25887C19.5053 6.56117 18.5612 7.50533 18.2589 8.71454Z"/>
+    <path d="M16.8942 20.5673L16.5 21.75L16.1058 20.5673C15.8818 19.8954 15.3546 19.3682 14.6827 19.1442L13.5 18.75L14.6827 18.3558C15.3546 18.1318 15.8818 17.6046 16.1058 16.9327L16.5 15.75L16.8942 16.9327C17.1182 17.6046 17.6454 18.1318 18.3173 18.3558L19.5 18.75L18.3173 19.1442C17.6454 19.3682 17.1182 19.8954 16.8942 20.5673Z"/>
+  </g>
+  <path d="M984 520 C940 520 900 470 846 430" fill="none" stroke="#A78BFA" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 12"/>
+</svg>
